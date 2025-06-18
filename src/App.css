@@ -1,4 +1,5 @@
-#root {
+@import "tailwindcss";
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -39,4 +40,25 @@
 
 .read-the-docs {
   color: #888;
+} */
+video {
+  will-change: transform;
+  transform: translateZ(0);
 }
+
+.first-text{
+  margin-bottom: 6rem;
+}
+.second-text{
+  margin-bottom: 6rem;
+}
+.third-text{
+  margin-bottom: 6rem;
+}  .text {
+          position: relative;
+          max-width: 600px;
+          margin: 150vh auto 0; /* 下の方に配置してスクロールで出るイメージ */
+          padding: 20px;
+          font-size: 2rem;
+          text-align: center;
+        }
